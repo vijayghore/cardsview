@@ -1,0 +1,134 @@
+.room-card{
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    align-self: center;
+    border: 1px solid rgb(206, 206, 206);
+}
+
+.card-image > img{
+    overflow: hidden;
+    width: 380px;
+    height: 250px;
+}
+
+.card-body{
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.row-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.address{
+    color: #222;
+    font-weight: 400;
+    font-size:large;
+}
+
+.popularity{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.popularity > span {
+    align-self: center;
+}
+.popularity > .stars {
+    background: #1ab64f;
+    color: #fff;
+    padding: 3px 6px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.popularity > .ratings {
+    font-size: 14px;
+    margin-left: 10px;
+    color: #222222
+}
+
+.popularity > .review {
+    font-size: 14px;
+    margin-left: 10px;
+    color: #222222
+}
+.amenities{
+    color: #222222;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.amenity {
+    margin: 0px 10px;
+    text-decoration: none;
+}
+
+.row-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.row-2 > .price{
+    display: flex;
+    flex-direction: column;
+}
+
+.row-2 > .price > .offer > span{
+    margin: 0px 5px;
+}
+
+.row-2 > .price > .offer > .offer-price{
+    color: #ee2a24;
+    font-size: x-large;
+    font-weight: bolder;
+} 
+
+.row-2 > .price > .offer > .original-price{
+    color: #6d787d;
+    font-size: large;
+    text-decoration: line-through;
+} 
+
+.row-2 > .price > .offer > .rebate{
+    color: #f5a623;
+    font-size: medium;
+} 
+
+.row-2 > .price > .prpn {
+    font-size: small;
+    color: #6d787d;
+    margin: 0px 5px;
+}
+
+.booking{
+    font-size: 16px;
+    align-self: center;
+}
+
+.booking > .booking-details{
+    color: #000;
+    background-color: #fff;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: 1px solid #000;
+    margin-right: 20px;
+}
+.booking > .booking-book{
+    color: #fff;
+    background-color: #1ab64f;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: none;
+}

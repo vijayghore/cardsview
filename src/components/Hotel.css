@@ -1,0 +1,50 @@
+.hotel-card{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    box-sizing: border-box;
+    display: flex;
+    padding: 10px;
+}
+
+.hotel-img{
+    display: flex;
+    border-radius: 10%;
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+}
+.name-price{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.hotel-name{
+    display: inline-flex;
+    font-weight: bold;
+}
+
+.hotel-price{
+    display: flex;
+}
+
+.dist-date{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.hotel-dist{
+    margin: 0;
+    padding: 0;
+}
+
+.hotel-date{
+    margin: 0;
+    padding: 0;
+
+}
